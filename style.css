@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  
+  header {
+    display: center;
+    align-items:flex-start;
+    border-radius: 40px;
+    background: #6ebbc2;
+    padding: 1%;
+    height: 150px;
+    
+
+    
+  }
+  
+  h1 {
+    font-size: 500%;
+  }
+  
+  h2 {
+    font-size: 250%;
+     display: center;
+    justify-content:center;
+    align-items: center;
+    padding: 1%;
+    background-color: #6ebbc2;
+    color: black;
+    border-style: solid;
+    border-color: #6ebbc2;
+    border-width: 15px; 
+    border-radius: 15px;
+  }
+
+  .About p{
+    display: none;
+  }
+
+  .About :hover p {
+
+    display: contents;
+  }
+  .About ul {
+    display: none;
+  }
+    .About :hover ul{
+        display: contents; 
+  }
+  
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+  }
+  
+  section {
+    flex: 1 1 0;
+    padding-right: 5%;
+  }
+  
+  article {
+    border-bottom: 1px solid #d8a47f;
+  }
+  
+  article p {
+    margin: 2% 0;
+    font-size: 110%;
+  }
+  
+  article ul {
+    margin-left: 5%;
+    font-size: 110%;
+    list-style: circle;
+  }
+  
+  aside {
+    width: 25%;
+  }
+  
+  aside h2 {
+    font-size: 150%;
+  }
+  
+  input, button {
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+  }
+  
+  footer {
+    display: bottom;
+    border-radius: 40px;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #6ebbc2;
+    color: black;
+  }
+  
+
+  
+  .links ul{
+    display: none;
+  }
+  
+  
+  .links :hover ul{
+    display: contents;
+  } 
+  
+  @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+    text-align: inherit;
+    }
+  }
