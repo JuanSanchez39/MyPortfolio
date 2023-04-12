@@ -11,9 +11,7 @@ body {
     background: #6ebbc2;
     padding: 1%;
     height: 150px;
-    
 
-    
   }
   
   h1 {
@@ -24,22 +22,28 @@ body {
     font-size: 250%;
      display: center;
     justify-content:center;
-    align-items: center;
-    padding: 1%;
+    align-items:end;
+    padding: 5px;
     background-color: #6ebbc2;
-    color: black;
+    color: rgb(0, 0, 0);
     border-style: solid;
     border-color: #6ebbc2;
     border-width: 15px; 
     border-radius: 15px;
   }
 
+.About img{
+    display: none;
+}
+.About :hover img{
+    display:list-item
+}
+
   .About p{
     display: none;
   }
 
   .About :hover p {
-
     display: contents;
   }
   .About ul {
@@ -47,7 +51,7 @@ body {
   }
     .About :hover ul{
         display: contents; 
-  }
+    }
   
   main {
     display: flex;
@@ -57,23 +61,28 @@ body {
   }
   
   section {
-    flex: 1 1 0;
-    padding-right: 5%;
+  width: 1300px;
+  height: 500px;
+  margin-right: 10%;
+  text-align: center;
+  border: 9px ;
+  overflow-y: scroll;
+  border-radius: 15px;
+  padding-right: 20%;
   }
   
-  article {
-    border-bottom: 1px solid #d8a47f;
-  }
   
   article p {
     margin: 2% 0;
-    font-size: 110%;
+    font-size: 200%;
+    color: white;
+    
   }
   
   article ul {
     margin-left: 5%;
-    font-size: 110%;
-    list-style: circle;
+    font-size: 200%;
+    color: white;
   }
   
   aside {
@@ -90,17 +99,6 @@ body {
     padding: 1%;
   }
   
-  footer {
-    display: bottom;
-    border-radius: 40px;
-    justify-content: space-between;
-    padding: 2%;
-    background-color: #6ebbc2;
-    color: black;
-  }
-  
-
-  
   .links ul{
     display: none;
   }
@@ -110,7 +108,7 @@ body {
     display: contents;
   } 
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 2000px) {
     header, main {
       flex-direction: column;
     }
