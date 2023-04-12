@@ -40,11 +40,11 @@ h2 {
     display: list-item
 }
 
-.About p {
+.About .info{
     display: none;
 }
 
-.About :hover p {
+.About:hover .info {
     display: contents;
 }
 
