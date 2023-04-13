@@ -1,3 +1,7 @@
+/* Here you'll find all the styles and visual structures youll find on HTML */
+
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -47,10 +51,12 @@ p {
     background-color: #eff0f1;
     display: inline-block;
 }
-.About{
-    background-color:#6ebbc2;
+
+.About {
+    background-color: #6ebbc2;
     border-radius: 15px;
 }
+
 .About img {
     display: none;
 }
@@ -74,10 +80,12 @@ p {
 .About:hover ul {
     display: contents;
 }
-.Work{
-    background-color:#6ebbc2;
+
+.Work {
+    background-color: #6ebbc2;
     border-radius: 15px;
 }
+
 .Work ul {
     display: none;
 
@@ -87,11 +95,12 @@ p {
     display: contents;
 }
 
-.links{
-    background-color:#6ebbc2;
+.links {
+    background-color: #6ebbc2;
     border-radius: 15px;
 
 }
+
 .links ul {
     display: none;
 }
@@ -138,10 +147,5 @@ article ul {
 
     section {
         padding-right: 0;
-    }
-
-    aside {
-        width: 100%;
-        text-align: inherit;
     }
 }
